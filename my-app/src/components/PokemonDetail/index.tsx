@@ -26,7 +26,7 @@ export const PokemonDetail = ({ pokemon }: Props) => {
         <Loader size={50} color="fff" />
       </div>
     );
-  }
+  };
 
   return (
     <div style={{ background: backgroundSelected }} className={styles.bg}>
